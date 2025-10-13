@@ -1,0 +1,43 @@
+/* frontend/src/components/Navbar.css */
+.dashboard-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    background-color: #1a1a1a; /* Slightly lighter than the page background */
+    border-bottom: 1px solid #333;
+    color: #f0f0f0;
+}
+
+.nav-logo a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-user-info {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-user-info span {
+    font-size: 0.9rem;
+}
+
+.logout-button {
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #6d28d9;
+}

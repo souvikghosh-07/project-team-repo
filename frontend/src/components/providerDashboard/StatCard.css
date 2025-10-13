@@ -1,0 +1,34 @@
+/* frontend/src/components/providerDashboard/StatCard.css */
+.stat-card {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1;
+    border: 1px solid #333;
+}
+
+.stat-icon {
+    font-size: 2rem;
+    /* You can add specific icons here later */
+}
+
+.stat-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-title {
+    font-size: 0.9rem;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+}
+
+.stat-value {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+}

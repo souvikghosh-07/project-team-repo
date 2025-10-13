@@ -1,0 +1,7 @@
+/* frontend/src/components/adminDashboard/AnalyticsList.css */
+.analytics-list-container { background-color: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 1.5rem; flex: 1; }
+.analytics-list-container h4 { margin: 0 0 1rem 0; font-size: 1.2rem; }
+.analytics-list { list-style: none; padding: 0; margin: 0; }
+.list-item { display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid #333; font-size: 1rem; }
+.list-item:last-child { border-bottom: none; }
+.list-item span:last-child { color: #a0a0a0; }

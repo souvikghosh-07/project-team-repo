@@ -1,0 +1,41 @@
+/* frontend/src/components/providerDashboard/CustomerBookings.css */
+.customer-bookings-container {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid #333;
+}
+
+.customer-bookings-container h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.bookings-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #f0f0f0;
+}
+
+.bookings-table th,
+.bookings-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.bookings-table th {
+    font-size: 0.9rem;
+    color: #a0a0a0;
+    text-transform: uppercase;
+}
+
+.status-confirmed {
+    background-color: rgba(59, 130, 246, 0.1);
+    color: #3b82f6;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}

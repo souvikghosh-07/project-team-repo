@@ -1,0 +1,128 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.auth-form-card {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid #2a2a2a;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+.auth-form-card .logo {
+  margin-bottom: 16px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.auth-form-card h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.auth-form-card p {
+  color: #a0a0a0;
+  margin-bottom: 24px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #c0c0c0;
+}
+
+.form-input {
+  background-color: #252525;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #7F00FF;
+}
+
+.role-selector {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.role-button {
+  flex-grow: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: transparent;
+  color: #a0a0a0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.role-button.selected {
+  background-color: rgba(127, 0, 255, 0.2);
+  border-color: #7F00FF;
+  color: #fff;
+}
+
+.auth-submit-btn {
+  background-color: #7F00FF;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-submit-btn:hover {
+  background-color: #6a00d6;
+}
+
+.auth-redirect-link {
+  margin-top: 24px;
+  color: #a0a0a0;
+}
+
+.auth-redirect-link a {
+  color: #7F00FF;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.error-message {
+    color: #ff4d4d;
+    background-color: rgba(255, 77, 77, 0.1);
+    border: 1px solid #ff4d4d;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    text-align: center;
+}

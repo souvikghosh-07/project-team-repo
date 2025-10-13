@@ -1,0 +1,90 @@
+/* frontend/src/components/providerDashboard/AddServiceForm.css */
+.add-service-container {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.add-service-container h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.service-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.service-form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-form label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #a0a0a0;
+}
+
+.service-form input,
+.service-form textarea {
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    color: #f0f0f0;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.service-form input:focus,
+.service-form textarea:focus {
+    outline: none;
+    border-color: #7c3aed;
+}
+
+.service-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.submit-listing-btn {
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.submit-listing-btn:hover {
+    background-color: #6d28d9;
+}
+
+.form-message {
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.form-message.error {
+    background-color: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+}
+
+.form-message.success {
+    background-color: rgba(34, 197, 94, 0.1);
+    color: #22c55e;
+}

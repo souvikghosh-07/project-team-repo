@@ -1,0 +1,74 @@
+/* frontend/src/components/customerDashboard/MyBookings.css */
+.my-bookings-container {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid #333;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.my-bookings-container h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.bookings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.booking-item {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #444;
+}
+
+.booking-service-title {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.25rem;
+    color: #f0f0f0;
+}
+
+.booking-info {
+    margin: 0.25rem 0;
+    color: #a0a0a0;
+}
+
+.booking-info strong {
+    color: #c0c0c0;
+}
+
+.booking-status {
+    background-color: rgba(59, 130, 246, 0.1);
+    color: #3b82f6;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Add this to the bottom of MyBookings.css */
+.review-btn {
+    background-color: transparent;
+    border: 1px solid #7c3aed;
+    color: #7c3aed;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.review-btn:hover {
+    background-color: #7c3aed;
+    color: white;
+}

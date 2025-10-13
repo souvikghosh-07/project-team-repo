@@ -1,0 +1,185 @@
+/* Container for the entire home page */
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 5%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Header/Navbar styling */
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.nav-link {
+  color: #a0a0a0;
+  text-decoration: none;
+  margin-left: 24px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.sign-in-link {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.home-main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Hero Section Styling */
+.hero-section {
+  text-align: center;
+  padding: 60px 0; /* Adjusted padding */
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.highlight-text {
+  background: linear-gradient(90deg, #8A2BE2, #4B0082);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #a0a0a0;
+  max-width: 600px;
+  margin: 0 auto 32px;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap; /* Allow buttons to wrap on small screens */
+}
+
+.btn {
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary {
+  background-color: #7F00FF; /* A nice violet color */
+  color: #fff;
+  border-color: #7F00FF;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #fff;
+  border-color: #444;
+}
+
+.btn-secondary:hover {
+    background-color: #222;
+    border-color: #555;
+}
+
+/* Features Section Styling */
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 60px 0; /* Adjusted padding */
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 32px;
+  max-width: 320px;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.icon-container {
+  background-color: rgba(127, 0, 255, 0.1);
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.feature-icon {
+  color: #A020F0; /* Brighter purple for the icon */
+  width: 24px;
+  height: 24px;
+}
+
+.feature-card h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  color: #a0a0a0;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        width: 80%;
+        max-width: 300px;
+        text-align: center;
+    }
+}

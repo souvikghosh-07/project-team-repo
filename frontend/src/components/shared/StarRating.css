@@ -1,0 +1,8 @@
+/* frontend/src/components/shared/StarRating.css */
+.star-rating-display .star {
+    color: #555;
+    font-size: 1rem;
+}
+.star-rating-display .star.filled {
+    color: #f59e0b;
+}

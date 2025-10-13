@@ -1,0 +1,6 @@
+/* frontend/src/components/adminDashboard/AnalyticsCard.css */
+.analytics-card { background-color: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 1.5rem; display: flex; align-items: center; gap: 1.5rem; flex: 1; }
+.card-icon { font-size: 2rem; }
+.card-details { display: flex; flex-direction: column; }
+.card-value { font-size: 2rem; font-weight: 700; color: #fff; }
+.card-title { font-size: 0.9rem; color: #a0a0a0; text-transform: uppercase; margin-top: 0.25rem; }

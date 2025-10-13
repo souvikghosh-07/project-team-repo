@@ -1,0 +1,59 @@
+/* frontend/src/components/providerDashboard/MyListings.css */
+.my-listings-container {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid #333;
+}
+
+.my-listings-container h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.listings-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #f0f0f0;
+}
+
+.listings-table th,
+.listings-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.listings-table th {
+    font-size: 0.9rem;
+    color: #a0a0a0;
+    text-transform: uppercase;
+}
+
+.status-approved {
+    background-color: rgba(34, 197, 94, 0.1);
+    color: #22c55e;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.action-btn {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn {
+    background-color: #ef4444;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #dc2626;
+}

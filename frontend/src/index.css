@@ -1,0 +1,18 @@
+/* Import a Google Font for the whole app */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* Basic CSS Reset */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #121212; /* Dark background for the entire app */
+  color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}

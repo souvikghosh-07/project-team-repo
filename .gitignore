@@ -1,0 +1,59 @@
+# Created by Gemini - a standard gitignore for a Node.js/React project
+
+### Node ###
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+# These can be thousands of files and should never be uploaded.
+# Anyone who clones your project will run `npm install` to get them.
+node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+### React ###
+# React build output
+Frontend/build
+
+# Testing
+/coverage
+
+### IMPORTANT: Environment Variables ###
+# Ignore the file containing all your secrets and passwords.
+# This is the most critical line in this file.
+Backend/.env
+
+### Operating System Files ###
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+Thumbs.db
+
+# Windows
+ehthumbs.db
+ehthumbs_vista.db
+
+

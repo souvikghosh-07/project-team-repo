@@ -1,0 +1,13 @@
+/* frontend/src/components/adminDashboard/ListingApprovals.css */
+.listing-approvals-container { background-color: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 1.5rem; }
+.listing-approvals-container h4 { margin: 0 0 1.5rem 0; font-size: 1.2rem; }
+.approval-list { display: flex; flex-direction: column; gap: 1rem; }
+.approval-item { display: flex; justify-content: space-between; align-items: center; background-color: #2c2c2c; padding: 1rem; border-radius: 8px; }
+.item-details { display: flex; flex-direction: column; }
+.item-title { font-weight: 600; font-size: 1.1rem; }
+.item-category { color: #a0a0a0; font-size: 0.9rem; margin-top: 0.25rem; }
+.item-actions { display: flex; gap: 0.75rem; }
+.item-actions .action-btn { border: none; padding: 0.6rem 1.2rem; border-radius: 8px; cursor: pointer; font-weight: 600; transition: opacity 0.3s ease; }
+.item-actions .action-btn:hover { opacity: 0.8; }
+.action-btn.approve { background-color: #22c55e; color: white; }
+.action-btn.reject { background-color: #ef4444; color: white; }
